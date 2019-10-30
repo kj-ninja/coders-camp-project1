@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio page</title>
+  <script src="https://kit.fontawesome.com/fc412ff717.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Sekcja nawigacji - logo i navbar -->
+  <nav class="nav-container">
+    <div class="navbar-container">
+      <div class="logo-container">
+        <img class="nav-logo" src="img/logo-svg.png" alt="">
+        <h2 class="nav-title">Front-End Ninja</h2>
+      </div>
+      <ul class="navbar">
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sekcja header - zdjecie w tle, naglowki z powitaniem i przycisk z CV -->
+  <header class="header-container">
+    <img class="header-layer" src="img/cover-layer.png" alt="">
+    <div class="header-title-container">
+      <h1 class="header-title">Welcome!</h1>
+      <p>My name is Designer</p>
+    </div>
+    <a id="header-btn" href="#">Check my CV</a>
+  </header>
+
+  <!-- Kontener trzymajacy glowne sekcje na stronie -->
+  <main>
+    <!-- Sekcja o mnie -->
+    <section class="about-me-section">
+      <h2 class="about-me-title">About me</h2>
+      <div class="about-me-container">
+        <div class="about-me-img-container">
+          <div class="about-me-img">
+            <img src="img/about-me.png" alt="">
+          </div>
+        </div>
+        <div class="about-me">
+          <p>Full name: <span>Designer</span></p><br>
+          <p>Age: <span>21 years</span></p><br>
+          <p>Profile: <span>Fullstack</span></p><br>
+          <p>Telephone: <span>+48 123-456-789</span></p><br>
+          <p>E-mail: <span class="underline">night-coding@dev.com</span></p><br>
+        </div>
+        <div class="about-me-description">
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+            exact
+            original form, accompanied by English versions from the 1914 translation by H. Rackham.
+            Various versions have evolved over the years, sometimes
+            by accident, sometimes on purpose.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja o umiejetnosciach -->
+    <section class="skills-section">
+      <h2 class="skills-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skills-ux-ui">
+          <div class="skills-ux-ui-img">
+              <img src="img/uxui.png" alt="">
+          </div>
+          <p>UX/UI</p>
+          <p>Figma</p>
+        </div>
+        <div class="skills-front-end">
+          <div class="skills-front-end-img">
+            <img src="img/frontend.png" alt="">
+          </div>
+          <p>Front End</p>
+          <p>Html, Css, JavaScript</p>
+        </div>
+        <div class="skills-back-end">
+          <div class="skills-back-end-img">
+            <img src="img/backend.png" alt="">
+          </div>
+          <p>Back End</p>
+          <p>PHP, Node.js</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcja o projektach w portfolio -->
+    <section class="portfolio-section">
+      <h2 class="portfolio-title">Portfolio</h2>
+      <div class="portfolio-container">
+        <div class="portfolio-project1">
+          <div class="portfolio-overlay-container">
+            <div class="portfolio-overlay">
+              <h1>Design</h1>
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
+              distracted by the readable content the point of.</p>
+              <a id="portfolio-btn" href="#">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-project2"></div>
+        <div class="portfolio-project3"></div>
+        <div class="portfolio-project4"></div>
+        <div class="portfolio-project5">
+          <div class="portfolio-overlay-container">
+              <div class="portfolio-overlay">
+                <h1>Design project</h1>
+                <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
+                distracted by the readable content the point of t is a long established fact that.</p>
+                <a id="portfolio-btn" href="#">View</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sekcja stopki na stronie - kontakt i formularz -->
+  <footer>
+    <h2 class="footer-title">Contact us</h2>
+    <div class="footer-container">
+      <div class="footer-contact">
+        <img src="img/footer-img.png" alt="">
+        <img class="footer-arrow" src="img/footer-arrow.png" alt="">
+        <p class="footer-description">Please describe your question. Send me a message and I will answer you as soon as possible!</p>
+        <ul class="footer-social-media">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+        <p>Designer</p>
+        <p>Poland, Wrocław</p>
+        <p>ul.Tęczowa 12/3 50-500</p>
+        <p>+48 123-456-789</p>
+        <p class="underline">night-coding@dev.com</p>
+      </div>
+
+      <!-- Formularz -->
+      <div class="footer-form-container">
+        <h2 class="footer-form-title">Let's start!</h2>
+
+        <div class="footer-form">
+          <form action="/action_page.php">
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+        
+            <input type="text" id="lname" name="lastname" placeholder="Your e-mail">
+            
+            <input type="text" id="topic" name="topic" placeholder="Topic">
+
+            <textarea id="subject" name="subject" placeholder="Message" style="height:150px"></textarea>
+          
+            <input class="footer-btn" type="submit" value="Send">
+          </form>
+        </div>
+        
+      </div>
+  </footer>
+  
+  <!-- Copyrights -->
+  <div class="footer-copyrights">
+    <p>Copyrights © 2019 kj-ninja</p>
+  </div>
+</div>
+
+</body>
+
+</html>
