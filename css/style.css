@@ -601,8 +601,6 @@ footer {
   border-radius: 5px;
 }
 
-
-
 input[type=text], textarea {
   width: 100%;
   padding: 15px 24px;
@@ -648,9 +646,3 @@ input[type=text], textarea {
   letter-spacing: 0.02em;
   color: #a0a0a0;
 }
-
-
-
-
-
-
