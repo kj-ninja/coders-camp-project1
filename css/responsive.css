@@ -1,0 +1,204 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+  /* Ukrycie desktopowej nawigacji i style mobilnej */
+  .nav-container {
+    display: none;
+  }
+
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+
+  /* Sekcja header mobile */
+  .header-container {
+    height: auto;
+  }
+
+  .header-title-container {
+    width: 100%;
+    top: 0;
+    padding: 0 20px 90px;
+  }
+
+  .header-title {
+    font-size: 60px;
+  }
+
+  .header-title-container>p {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #header-btn {
+    display: none;
+  }
+  
+  #header-btn-mobile {
+    width: 85px;
+    height: 42px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(270deg, #ffc53d 14%, #ff9a3d 68.5%);
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 42px;
+  }
+
+  /* Sekcja about me wersja mobilna */
+  .about-me-container {
+    width: 100%;
+    box-shadow: none;
+    padding: 30px 15px;
+  }
+
+  .about-me-title {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-me-img-container {
+    display: none;
+  }
+
+  .about-me-img {
+    position: absolute;
+    top: 65px;
+    right: 15px;
+    box-shadow: none;
+  }
+
+  .about-me {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-me-description {
+    width: 100%;
+    padding: 0;
+    border: 0;
+  }
+
+  .about-me-description>p {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  /* Sekcja o umiejetnosciach */
+  .skills-title {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .skills-container {
+    width: 100%;
+    box-shadow: none;
+    margin: 30px 0 0;
+    padding: 30px 0 0;
+  }
+
+  .skills-ux-ui, .skills-front-end, .skills-back-end {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    height: 250px;
+    padding: 10px 0 10px;
+  }
+
+  .skills-back-end {
+    padding: 10px 0 0;
+  }
+
+  .skills-front-end-img {
+    height: auto;
+  }
+
+  .skills-ux-ui p:first-of-type, .skills-front-end p:first-of-type, .skills-back-end p:first-of-type {
+    margin-bottom: 5px;
+  }
+
+  /* Sekcja portfolio w wersji mobilnej */
+  .portfolio-project1, .portfolio-project2, .portfolio-project3, .portfolio-project4, .portfolio-project5 {
+    width: 100%;
+  }
+  
+  .portfolio-project1, .portfolio-project2, .portfolio-project3 {
+    height: 346px;
+  }
+
+  .portfolio-project4, .portfolio-project5 {
+    height: 354px;
+  }
+
+  .portfolio-project5 .portfolio-overlay-description {
+    padding: 0;
+  }
+
+  /* Sekcja footer w wersji mobilnej */
+  footer {
+    background-color: #fafaff;
+  }
+
+  .footer-container {
+    width: 100%;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .footer-title {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-contact {
+    width: 100%;
+  }
+
+  .footer-form-container {
+    display: none;
+  }
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }

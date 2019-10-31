@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
   <title>Portfolio page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script src="https://kit.fontawesome.com/fc412ff717.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
@@ -21,11 +23,38 @@
         <img class="nav-logo" src="img/logo-svg.png" alt="">
         <h2 class="nav-title">Front-End Ninja</h2>
       </div>
-      <ul class="navbar">
+      <ul class="navbar-desktop">
         <li><a href="#">About me</a></li>
         <li><a href="#">Skills</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sekcja nawigacji w wersji mobilnej - bootstrap navabar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="img/logo-svg.png">
+      <img src="img/logo-svg.png" alt="">
+      Front-end
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -38,6 +67,9 @@
       <p>My name is Designer</p>
     </div>
     <a id="header-btn" href="#">Check my CV</a>
+
+    <!-- Button wersja mobilna -->
+    <a id="header-btn-mobile" href="#">My CV</a>
   </header>
 
   <!-- Kontener trzymajacy glowne sekcje -->
@@ -51,11 +83,17 @@
             <img src="img/about-me.png" alt="">
           </div>
         </div>
+
+        <!-- Awatar w wersji mobilnej -->
+        <div class="about-me-img">
+          <img src="img/about-me.png" alt="">
+        </div>
+
         <div class="about-me">
-          <p>Full name: <span>Designer</span></p><br>
-          <p>Age: <span>21 years</span></p><br>
-          <p>Profile: <span>Fullstack</span></p><br>
-          <p>Telephone: <span>+48 123-456-789</span></p><br>
+          <p>Full name: <span>Designer</span></p>
+          <p>Age: <span>21 years</span></p>
+          <p>Profile: <span>Fullstack</span></p>
+          <p>Telephone: <span>+48 123-456-789</span></p>
           <p>E-mail: <span class="underline">night-coding@dev.com</span></p><br>
         </div>
         <div class="about-me-description">
@@ -151,6 +189,26 @@
         <p class="underline">night-coding@dev.com</p>
       </div>
 
+      <!-- Kontakt i social - wesrsja mobilna -->
+      <div class="footer-contact">
+        <img src="img/footer-img.png" alt="">
+        <img class="footer-arrow" src="img/footer-arrow.png" alt="">
+        <p class="footer-description">Please describe your question. Send me a message and I will answer you as soon as possible!</p>
+
+        <!-- Social media -->
+        <ul class="footer-social-media">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+        <p>Designer</p>
+        <p>Poland, Wrocław</p>
+        <p>ul.Tęczowa 12/3 50-500</p>
+        <p>+48 123-456-789</p>
+        <p class="underline">night-coding@dev.com</p>
+      </div>
+
       <!-- Formularz -->
       <div class="footer-form-container">
         <h2 class="footer-form-title">Let's start!</h2>
@@ -167,9 +225,9 @@
           
             <input class="footer-btn" type="submit" value="Send">
           </form>
-        </div>
-        
+        </div>   
       </div>
+    </div>
   </footer>
   
   <!-- Copyrights -->
@@ -177,6 +235,9 @@
     <p>Copyrights © 2019 kj-ninja</p>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
