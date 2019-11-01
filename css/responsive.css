@@ -50,6 +50,14 @@
     cursor: pointer;
     text-align: center;
     line-height: 42px;
+    z-index: 10;
+  }
+
+  #header-btn-mobile:hover {
+    text-decoration: none;
+    border: 1px solid #ffc53d;
+    color: #ffc53d;
+    background: #fff;
   }
 
   /* Sekcja about me wersja mobilna */

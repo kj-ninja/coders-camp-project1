@@ -616,7 +616,7 @@ footer {
 }
 
 /* Social media - hover effects */
-.fab:hover {
+.fab:hover, .far:hover {
   color: #222;
 }
 
