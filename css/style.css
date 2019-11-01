@@ -524,6 +524,8 @@ footer {
   position: relative;
   width: 100%;
   padding-top: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-title {
@@ -682,4 +684,8 @@ input[type=text], textarea {
   letter-spacing: 0.02em;
   color: #a0a0a0;
   background-color: #fff;
+}
+
+.footer-copyrights>p {
+  margin-bottom: 0;
 }

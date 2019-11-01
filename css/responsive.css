@@ -1,9 +1,9 @@
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
+/* Mobile Styles - Extra small devices (up to 600px) */
+@media only screen and (max-width: 960px) {
   body {
     font-size: 16px;
   }
-  /* Ukrycie desktopowej nawigacji i style mobilnej */
+  /* Ukrycie desktopowej nawigacji. Style mobilnej */
   .nav-container {
     display: none;
   }
@@ -68,11 +68,13 @@
     display: none;
   }
 
-  .about-me-img {
+  .about-me-img-mobile {
     position: absolute;
     top: 65px;
-    right: 15px;
-    box-shadow: none;
+    right: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
   }
 
   .about-me {
@@ -142,12 +144,9 @@
   }
 
   /* Sekcja footer w wersji mobilnej */
-  footer {
-    background-color: #fafaff;
-  }
-
   .footer-container {
     width: 100%;
+    height: auto;
     box-shadow: none;
     margin: 0;
   }
@@ -155,34 +154,183 @@
   .footer-title {
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  .footer-contact {
-    width: 100%;
+    padding-top: 50px;
   }
 
   .footer-form-container {
     display: none;
   }
 
+  .footer-contact {
+    display: none;
+  }
 
+  .footer-contact-mobile {
+    position: relative;
+    width: 100%;
+    height: 285px;
+    color: #fff;
+    background-color: #ff9a3d;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style social media w footerze */
+  .footer-social-media-mobile {
+    text-align: center;
+    margin-top: 45px;
+  }
+  
+  .footer-social-media-mobile>li {
+    display: inline;
+    margin-right: 25px;
+  }
+  
+  .footer-social-media-mobile>li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .footer-social-media-mobile i {
+    font-size: 30px;
+    color: #fff
+  }
+  
+  .footer-contact-mobile p {
+    font-family: 'Ubuntu';
+    line-height: 22px;
+    letter-spacing: 0.02em;
+  }
+  
+  .footer-contact-mobile p:nth-of-type(2) {
+    font-weight: bold;
+  }
+  
+  .footer-contact-mobile p:nth-of-type(3) {
+    font-weight: bold;
+  }
+  
+  .footer-contact-mobile .underline {
+    text-decoration: underline;
+  }
+
+  /* Copyrights */
+  .footer-copyrights {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+  }
 }
 
-  
-
-
-
-
-
-
-
-
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    
+/* Tablet Styles - Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  /* Navbar */
+  .navbar-nav {
+    text-align: center;
   }
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    
+
+  /* About me */
+  .about-me {
+    width: 50%;
   }
+
+  .about-me-description {
+    width: 50%;
+  }
+
+  .about-me-img-mobile {
+    width: 90px;
+    height: 90px;
+    top: 265px;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  /* Header */
+  .header-title {
+    font-size: 75px;
+  }
+
+  .header-title-container>p {
+    font-size: 28px;
+  }
+
+  /* About me */
+  .about-me-img-mobile {
+    top: 65px;
+    left: 270px;
+  }
+
+  /* Skills */
+  .skills-ux-ui, 
+  .skills-front-end {
+    width: 50%;
+  }
+
+  /* Portfolio */
+  .portfolio-project1, 
+  .portfolio-project2, 
+  .portfolio-project3, 
+  .portfolio-project4 {
+    width: 50%;
+    height: 344px;
+  }
+}
+
+/* Desktop Styles - Large devices (laptops/desktops, 961px and up) */
+@media only screen and (min-width: 961px) {
+  /* Nawigacja */
+  .navbar-mobile {
+    display: none;
+  }
+
+  .nav-logo {
+    left: 40px;
+  }
+
+  .nav-title {
+    left: 90px;
+  }
+
+  .navbar-desktop {
+    width: 45%;
+  }
+
+  .header-title-container>p {
+    text-align: center;
+  }
+
+  /* About me */
+  .about-me-title {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-me-img-mobile {
+    display: none;
+  }
+
+  /* Skills */
+  .skills-title {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Portfolio */
+  .portfolio-container {
+    height: 700px;
+  }
+
+  /* Footer */
+  .footer-contact-mobile {
+    display: none;
+  }
+
+  .footer-contact>.footer-description {
+    margin-bottom: 85px;
+  }
+}
