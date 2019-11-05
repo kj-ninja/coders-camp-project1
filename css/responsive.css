@@ -8,6 +8,13 @@
     display: none;
   }
 
+  .navbar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+  }
   .navbar-brand img {
     margin-right: 10px;
   }
@@ -15,6 +22,7 @@
   /* Sekcja header mobile */
   .header-container {
     height: auto;
+    top: 60px;
   }
 
   .header-title-container {
@@ -58,6 +66,11 @@
     border: 1px solid #ffc53d;
     color: #ffc53d;
     background: #fff;
+  }
+
+  /* Sekcja main wersja mobilna */
+  main {
+    top: 60px;
   }
 
   /* Sekcja about me wersja mobilna */
@@ -152,6 +165,9 @@
   }
 
   /* Sekcja footer w wersji mobilnej */
+  footer {
+    top: 60px;
+  }
   .footer-container {
     width: 100%;
     height: auto;
@@ -166,7 +182,14 @@
   }
 
   .footer-form-container {
-    display: none;
+    order: -1;
+    width: 100%;
+    position: relative;
+    padding: 35px;
+  }
+
+  .footer-form {
+    padding-bottom: 100px;;
   }
 
   .footer-contact {
@@ -228,6 +251,7 @@
     text-align: center;
     line-height: 50px;
     font-size: 12px;
+    top: 100px;
   }
 }
 
@@ -313,11 +337,6 @@
   }
 
   /* About me */
-  .about-me-title {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   .about-me-img-mobile {
     display: none;
   }
@@ -341,4 +360,5 @@
   .footer-contact>.footer-description {
     margin-bottom: 85px;
   }
+
 }
