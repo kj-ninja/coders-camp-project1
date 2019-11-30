@@ -3,7 +3,7 @@
   body {
     font-size: 16px;
   }
-  /* Ukrycie desktopowej nawigacji. Style mobilnej */
+  /* Hide desktop nav */
   .nav-container {
     display: none;
   }
@@ -19,7 +19,11 @@
     margin-right: 10px;
   }
 
-  /* Sekcja header mobile */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* Header */
   .header-container {
     height: auto;
     top: 60px;
@@ -68,12 +72,12 @@
     background: #fff;
   }
 
-  /* Sekcja main wersja mobilna */
+  /* Main container */
   main {
     top: 60px;
   }
 
-  /* Sekcja about me wersja mobilna */
+  /* About me section */
   .about-me-container {
     width: 100%;
     box-shadow: none;
@@ -114,7 +118,7 @@
     text-align-last: center;
   }
 
-  /* Sekcja o umiejetnosciach */
+  /* Skills section */
   .skills-title {
     left: 50%;
     transform: translateX(-50%);
@@ -147,7 +151,7 @@
     margin-bottom: 5px;
   }
 
-  /* Sekcja portfolio w wersji mobilnej */
+  /* Portfolio section */
   .portfolio-project1, .portfolio-project2, .portfolio-project3, .portfolio-project4, .portfolio-project5 {
     width: 100%;
   }
@@ -164,7 +168,7 @@
     padding: 0;
   }
 
-  /* Sekcja footer w wersji mobilnej */
+  /* Footer */
   footer {
     top: 60px;
   }
@@ -206,7 +210,7 @@
     text-align: center;
   }
   
-  /* Style social media w footerze */
+  /* Social media */
   .footer-social-media-mobile {
     text-align: center;
     margin-top: 45px;
@@ -315,7 +319,7 @@
 
 /* Desktop Styles - Large devices (laptops/desktops, 961px and up) */
 @media only screen and (min-width: 961px) {
-  /* Nawigacja */
+  /* Navbar */
   .navbar-mobile {
     display: none;
   }

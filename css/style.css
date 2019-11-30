@@ -25,7 +25,7 @@ ul {
   list-style: none;
 }
 
-/* Nawigacja desktop */
+/* Navbar desktop */
 .nav-container {
   width: 100%;
   height: 92px;
@@ -47,7 +47,7 @@ ul {
   position: relative;
 }
 
-/* Style loga, tytulu i nawigacji */
+/* Logo, title and nav - styles */
 .logo-container {
   position: relative;
   width: 50%;
@@ -158,7 +158,7 @@ ul {
   background: #fff;
 }
 
-/* Kontener glownych sekcji*/
+/* Main container */
 main {
   width: 100%;
   max-width: 1440px;
@@ -170,7 +170,7 @@ main {
   top: 92px;
 }
 
-/* Sekcja o mnie */
+/* About me section */
 .about-me-section {
   width: 100%;
   position: relative;
@@ -246,7 +246,7 @@ main {
   letter-spacing: 0.04em;
 }
 
-/* Sekcja umiejetnosci */
+/* Skills section */
 .skills-section {
   width: 100%;
   position: relative;
@@ -384,7 +384,7 @@ main {
   line-height: 28px;
 }
 
-/* Sekcja portfolio */
+/* Portfolio section */
 .portfolio-section {
   width: 100%;
   margin-top: 60px;
@@ -437,7 +437,7 @@ main {
   cursor: pointer;
 }
 
-/* Sekcja portfolio - hover effects */
+/* Portfolio - hover effects */
 .portfolio-overlay-container {
   position: relative;
   width: 100%;
@@ -476,7 +476,7 @@ main {
   padding-right: 300px;
 }
 
-#portfolio-btn {
+.portfolio-overlay .portfolio-btn {
   width: 100px;
   height: 50px;
   display: inline-block;
@@ -485,12 +485,11 @@ main {
   background: linear-gradient(270deg, #ffc53d 14%, #ff9a3d 68.5%);
   border-radius: 15px;
   cursor: pointer;
-  /* transition: 0.1s linear; */
 }
 
 
 /* Portfolio - hover effects */
-#portfolio-btn:hover {
+.portfolio-btn:hover {
   text-decoration: none;
   border: 1px solid 
   #ffc53d;
@@ -538,7 +537,7 @@ main {
   background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%);
 }
 
-/* Sekcja footer */
+/* Footer */
 footer {
   position: relative;
   top: 92px;
@@ -597,7 +596,7 @@ footer {
   font-family: inherit;
 }
 
-/* Style social media w footerze */
+/* Social media */
 .footer-social-media {
   margin-top: 35px;
   margin-bottom: 20px;
@@ -640,7 +639,7 @@ footer {
   color: #222;
 }
 
-/* Formularz w footerze */
+/* Form */
 .footer-form-container {
   width: 55%;
   position: relative;
