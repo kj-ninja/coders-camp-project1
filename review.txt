@@ -1,0 +1,14 @@
+Jezeli chodzi o HTML to super, naprawde super, struktura, nazwy klas bardzo dobrze dodalbym do tego tylko BEM'a i bylo by 11/10 : )))) jedyne co to imo niepotrzebne tworzenie struktury specjalnie dla mobilki.
+Jezeli chodzi o css to duzo za duzo jest powtarzalnych styli wrzucic je do jednej klasy i tyle x razy mniej kodu.
+Chyba tylko raz widzialem stylowanie po id, starajmy sie je zostawic tylko dla js'a.
+W niektorych miejscach zle wykorzystane absoluty np. pozycjonowanie title
+Ponad 1000 lini kodu css to duzo za duzo na taka strone ->imo to przez powtarzane style.
+Brak transition'ow na buttonach
+Niektore zdjęcia bardzo dużo ważą warto wykorzystac jakies narzedzie do kompresji zdjec np https://squoosh.app/ (to lepsze :))) ) albo https://imagecompressor.com/pl/ 
+
+
+Code quality - 9/10
+Design quality - 10/10
+Business quality - 9/10
+Features quality - 2/10
+Ocena 30/40

@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio page</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <script src="https://kit.fontawesome.com/fc412ff717.js" crossorigin="anonymous"></script>
@@ -38,7 +39,8 @@
       <img src="img/logo-svg.png" alt="">
       Front-end
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -83,7 +85,7 @@
           </div>
         </div>
 
-        <!-- Awatar w wersji mobilnej -->
+        <!-- Awatar w wersji mobilnej -> imo lepszy pomyslem by bylo po prostu ostylowac div class="about-me-img" zamiast tworzyc specjanie nowy wrapper, ale nie jest to blad + nie rozumiem po co przeciez to dwa te same zdjecia -->
         <div class="about-me-img-mobile">
           <img src="img/about-me.png" alt="">
         </div>
@@ -112,7 +114,7 @@
       <div class="skills-container">
         <div class="skills-ux-ui">
           <div class="skills-ux-ui-img">
-              <img src="img/uxui.png" alt="">
+            <img src="img/uxui.png" alt="">
           </div>
           <p>UX/UI</p>
           <p>Figma</p>
@@ -142,8 +144,9 @@
           <div class="portfolio-overlay-container">
             <div class="portfolio-overlay">
               <h1>Design</h1>
-              <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
-              distracted by the readable content the point of.</p>
+              <!-- h1 tylko jedna na stronie -->
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be
+                distracted by the readable content the point of.</p>
               <a id="portfolio-btn" href="#">View</a>
             </div>
           </div>
@@ -152,8 +155,8 @@
           <div class="portfolio-overlay-container">
             <div class="portfolio-overlay">
               <h1>Design</h1>
-              <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
-              distracted by the readable content the point of.</p>
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be
+                distracted by the readable content the point of.</p>
               <a id="portfolio-btn" href="#">View</a>
             </div>
           </div>
@@ -162,8 +165,8 @@
           <div class="portfolio-overlay-container">
             <div class="portfolio-overlay">
               <h1>Design</h1>
-              <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
-              distracted by the readable content the point of.</p>
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be
+                distracted by the readable content the point of.</p>
               <a id="portfolio-btn" href="#">View</a>
             </div>
           </div>
@@ -172,20 +175,21 @@
           <div class="portfolio-overlay-container">
             <div class="portfolio-overlay">
               <h1>Design</h1>
-              <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
-              distracted by the readable content the point of.</p>
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be
+                distracted by the readable content the point of.</p>
               <a id="portfolio-btn" href="#">View</a>
             </div>
           </div>
         </div>
         <div class="portfolio-project5 portfolio-project-bg">
           <div class="portfolio-overlay-container">
-              <div class="portfolio-overlay">
-                <h1>Design project</h1>
-                <p class="portfolio-overlay-description">It is a long established fact that a reader will be 
+            <div class="portfolio-overlay">
+              <h1>Design project</h1>
+              <!-- duzo za duzo tych h1 -->
+              <p class="portfolio-overlay-description">It is a long established fact that a reader will be
                 distracted by the readable content the point of t is a long established fact that.</p>
-                <a id="portfolio-btn" href="#">View</a>
-              </div>
+              <a id="portfolio-btn" href="#">View</a>
+            </div>
           </div>
         </div>
       </div>
@@ -198,8 +202,11 @@
     <div class="footer-container">
       <div class="footer-contact">
         <img src="img/footer-img.png" alt="">
+
+        <!-- ten footer-arrow niepotrzebnie jest img, wystarczylo zrobic to before/after'em -->
         <img class="footer-arrow" src="img/footer-arrow.png" alt="">
-        <p class="footer-description">Please describe your question. Send me a message and I will answer you as soon as possible!</p>
+        <p class="footer-description">Please describe your question. Send me a message and I will answer you as soon as
+          possible!</p>
 
         <!-- Social media -->
         <ul class="footer-social-media">
@@ -216,6 +223,7 @@
       </div>
 
       <!-- Kontakt i social - wersja mobilna -->
+      <!-- nie tworzylbym nowej struktury dla mobilki, dodał klasy do juz istniejacej i ostylowac im wiecej tak robionych sekcji tym wiekszy syf sie robi -->
       <div class="footer-contact-mobile">
         <p>Designer</p>
         <p>Poland, Wrocław</p>
@@ -230,7 +238,7 @@
           <li><a href="#"><i class="fab fa-github"></i></a></li>
           <li><a href="#"><i class="far fa-envelope"></i></a></li>
         </ul>
-        
+
       </div>
 
       <!-- Formularz -->
@@ -239,29 +247,36 @@
 
         <div class="footer-form">
           <form action="/action_page.php">
+            <!-- brakuje labelek -->
             <input type="text" id="fname" name="firstname" placeholder="Your name">
-        
+
             <input type="text" id="lname" name="lastname" placeholder="Your e-mail">
-            
+
             <input type="text" id="topic" name="topic" placeholder="Topic">
 
             <textarea id="subject" name="subject" placeholder="Message" style="height:150px"></textarea>
-          
+
             <input class="footer-btn" type="submit" value="Send">
           </form>
-        </div>   
+        </div>
       </div>
     </div>
   </footer>
-  
+
   <!-- Copyrights -->
   <div class="footer-copyrights">
     <p>Copyrights © 2019 kj-ninja</p>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

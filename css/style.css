@@ -1,3 +1,4 @@
+/* fajnie ze jest reset styli */
 * {
   padding: 0;
   margin: 0;
@@ -181,6 +182,7 @@ main {
   position: absolute;
   top: -20px;
   left: 50%;
+  /* zamiast tego u gory wystarczylo dodac text-align:center + raczej nie korzystamy z absolutow do pozycjonowania titla */
   transform: translateX(-50%);
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 32px;
@@ -260,6 +262,7 @@ main {
 .skills-title {
   position: absolute;
   top: -20px;
+  /* tutaj tak samowystarczy text-align:center */
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 32px;
   line-height: 37px;
@@ -352,6 +355,9 @@ main {
   padding-top: 40px;
   border-left: 4px dotted #ffc53d;
 }
+/* skills-back-end,skills-ux-ui,skills-front-end maja duzo wspolnych styli warto je dodac do jednej klasy zamiast przepisywac + 
+skills-back-end-img itd maja identyczne style- ta sama sytuacja style do jednej klasy i dodac w htmlu = mniej kodu ten sam efekt
+*/
 
 .skills-back-end-img {
   width: 83px;
@@ -378,7 +384,7 @@ main {
   color: #ffc53d;
   margin-bottom: 10px;
 }
-
+/* dwa selektory wyzej maja te same style */
 .skills-back-end p:last-of-type {
   font-size: 24px;
   line-height: 28px;
@@ -537,7 +543,7 @@ main {
 .portfolio-project5:hover .portfolio-overlay-container {
   background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%);
 }
-
+/* wyzej powtarzane stlye - do jednej klasy */
 /* Sekcja footer */
 footer {
   position: relative;
@@ -712,3 +718,4 @@ input[type=text], textarea {
 .footer-copyrights>p {
   margin-bottom: 0;
 }
+/* okolo 700 lini styli css w tym pliku + drugi plik okolo 350 to juz 1000 lini jak na tak prosta strone to troche za duzo imo */
