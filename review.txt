@@ -5,6 +5,7 @@ W niektorych miejscach zle wykorzystane absoluty np. pozycjonowanie title
 Ponad 1000 lini kodu css to duzo za duzo na taka strone ->imo to przez powtarzane style.
 Brak transition'ow na buttonach
 Niektore zdjęcia bardzo dużo ważą warto wykorzystac jakies narzedzie do kompresji zdjec np https://squoosh.app/ (to lepsze :))) ) albo https://imagecompressor.com/pl/ 
+Duzo za duzo h1, na stronie powinna byc jedna
 
 
 Code quality - 9/10
