@@ -1,6 +1,6 @@
 # Portfolio site
 
-Here is the link to the site. Enjoy! https://cc-p1.coderaf.com/
+Here is link to the site. Enjoy! https://cc-p1.coderaf.com/
 
 ## Coders camp project_1
 
